@@ -1,0 +1,76 @@
+/* Background  Properties */
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 25px;
+}
+/* Topbox  Properties */
+.fbox{
+    height: 35vh;
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: flex-start;
+}
+.p{
+height: 150px;
+width: 50px;
+background-color: blueviolet;
+margin-left: 10px;
+margin-top: 75px;
+display: inline-block;
+
+}
+.g{
+height: 200px;
+width: 400px;
+background-color: green;
+display: inline-block;
+margin-left: 50px;
+}
+.b{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+background-color: skyblue;
+display: inline-block;
+margin-left: 50px;
+}
+/* Middlebox  Properties */
+.sbox{
+    margin-top: 30px;
+    height: 42vh;
+    width: 100%;
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+    justify-content: flex-start;
+    }
+.t{
+    margin: 40px 30px;
+    height: 200px;
+    width: 95%;
+    background-color: rgb(242, 242, 199);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0)
+}
+/* Lastbox  Properties */
+.tbox{
+    margin: 40px auto;
+    height: 250px;
+    width: 45%;
+    border-color: rgb(155, 155, 155);
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+    }
+.txt{
+    color: rgb(0, 0, 111);
+    text-align: center;
+    margin: 110px auto;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
